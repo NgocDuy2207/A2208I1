@@ -2,7 +2,7 @@ package bai_tap_2_vong_lap_for;
 
 import java.util.Scanner;
 
-public class in_ra_cac_so_nguyen_to_nho_hon_100 {
+public class In_ra_cac_so_nguyen_to_nho_hon_100 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("nhập vào một số: ");

@@ -2,7 +2,7 @@ package bai_tap_2_vong_lap_for;
 
 import java.util.Scanner;
 
-public class in_ra_20_so_nguyen_to_dau_tien {
+public class In_ra_20_so_nguyen_to_dau_tien {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("nhập vào số lượng số nguyên số in ra: ");
@@ -17,7 +17,6 @@ public class in_ra_20_so_nguyen_to_dau_tien {
             }
             i++;
         }
-
     }
 
    public static boolean isPrimeNumber(int number){

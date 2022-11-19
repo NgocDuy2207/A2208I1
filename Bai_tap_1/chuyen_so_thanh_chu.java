@@ -18,7 +18,6 @@ public class chuyen_so_thanh_chu {
             }else {
                 System.out.println(threeDiGit(number));
             }
-
         }
     }
     private static String oneDiGit(int number){
@@ -42,7 +41,6 @@ public class chuyen_so_thanh_chu {
             case 9:
                 return "Night";
         }
-
         return "Zero";
         }
         private static String towDiGit(int number){
@@ -68,7 +66,6 @@ public class chuyen_so_thanh_chu {
                 case 19:
                     return "Nineteen";
             }
-
             return "Twenty";
         }
         private static String towsDiGit(int number){
@@ -131,12 +128,10 @@ public class chuyen_so_thanh_chu {
                         break;
                 }
             }
-
-
             return result;
         }
         private static String threeDiGit(int number){
-            String result = null;
+            String result ;
             int hundreds = number/100;
             int others = number - (hundreds*100);
             if (others < 10){
@@ -146,11 +141,8 @@ public class chuyen_so_thanh_chu {
             }else {
                 result = oneDiGit(hundreds)+" "+"Hundred"+" "+ towsDiGit(others);
             }
-
             return result;
         }
-
-
         }
 
 
